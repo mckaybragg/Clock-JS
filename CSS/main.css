@@ -18,8 +18,8 @@ body {
 }
 
 #clockDisplay:hover {
-    transform: rotate(20deg);
-    transition: 10s;
+    transform: scale(1.0);
+    transition: 5s;
 
 }
 
@@ -35,26 +35,45 @@ body {
 }
 
 #dateDisplay:hover {
-    
+    transform: skew(50deg);
+    transition: 10s;
+    color: cornflowerblue;
 }
+
 
 h1 {
     font-family: 'Patrick Hand', cursive;
-    font-size: 35pt;
+    font-size: 45pt;
 }
 
-h1:hover {
-    color: cornflowerblue;
-    
-}
 
 a {
     font-size: 20pt;
-    padding: 5%;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    background-color:cornflowerblue;
+    color: black;
+    border-radius: 2%;
+    border-style: groove;
+
+
 
 }
 
 a:hover {
-    color: cornflowerblue;
+    color: blanchedalmond;
+    font-size: 30pt;
 }
 
+#git {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#linked {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
